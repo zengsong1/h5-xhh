@@ -1,0 +1,123 @@
+#integral_header{
+	width:3.75rem;
+	height:1.22rem;
+	background:#F6536B;
+	border-radius:0px 0px .40rem .40rem;
+}
+#integral_header h1{
+	text-align: center;
+    color: #FFFFFF;
+	font-size: .18rem;
+	line-height: .5rem;
+	font-weight: bold;
+}
+#integral_title{
+	width:3.39rem;
+	height:1.30rem;
+	margin: -.7rem auto 0 auto;
+	background: url(../../img/home/jfk@2x.png) no-repeat -7px -5px;
+	background-size: 3.53rem 1.43rem;
+	box-sizing: border-box;
+	color: #EFC758;
+	padding: .13rem;
+}
+.integral_title_01{
+	position: absolute;
+	left: 2.7rem;
+}
+.integral_title_01 img{
+	height: .11rem;
+}
+.integral_title_01 span{
+	font-size: .12rem;
+}
+.integral_title_02{
+	margin-left: .11rem;
+}
+.integral_title_02 img{
+	height: .25rem;
+}
+.integral_title_02 span{
+	font-weight:800;
+	margin-left: .1rem;
+	font-size: .2rem;
+}
+.integral_title_02 p{
+	font-size: .12rem;
+}
+/* 积分兑换 */
+#integral_main {
+	width: 3.47rem;
+	margin: .12rem auto .3rem auto;
+}
+#integral_main h6{
+	color: #1C1C1C;
+	font-size: .18rem;
+	font-weight: bold;
+	margin-bottom: .06rem;
+}
+.integral_main_inner{
+	width:3.47rem;
+	height:1.10rem;
+	border-radius:3px;
+	background: #FFFFFF;
+	display: flex;
+	box-sizing: border-box;
+	margin-top: .1rem;
+}
+.integral_main_left{
+	width: 1.06rem;
+	height: 1.06rem;
+	margin-right: .1rem;
+}
+.integral_main_left img{
+	display: block;
+	height: .9rem;
+	margin: .1rem auto;
+}
+.integral_main_right{
+	width: 1.66rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position:relative
+}
+.integral_main_right p{
+	color: #4D4D4D;
+	line-height:.22rem;
+	width: 2.1rem;
+	overflow: hidden;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+	-webkit-box-orient: vertical;
+	line-height: .2rem;
+}
+.integral_main_right span{
+	color: #7D7D7D;
+	line-height:.22rem;
+}
+.integral_main_right button{
+	
+	position: absolute;
+	left: 1.36rem; 
+	top:.64rem;
+	width:.78rem;
+	height:.24rem;
+	border-radius:.12rem;
+	border:1px solid #EC2B48;
+	color: #EC2B48;
+	background: #FFFFFF;
+	text-align: center;
+	line-height: .2rem;
+	font-size: .14rem;
+}
+.integral_main_right i{
+	width:.76rem;
+	height:.18rem;
+	border:1px solid #7D7D7D;
+	border-radius:3px;
+	text-align: center;
+	line-height:.18rem;
+	font-size: .12rem;
+}

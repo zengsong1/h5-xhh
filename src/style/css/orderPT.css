@@ -1,0 +1,226 @@
+#orderPT_title{
+	width: 3.75rem;
+	height: .5rem;
+	background: #FFFFFF;
+	color: #1C1C1C;
+	font-size: .18rem;
+	text-align: center;
+	line-height: .5rem;
+	font-weight: bold;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+#orderPT_nav{
+	width: 3.75rem;
+	height: .44rem;
+	background: #FFFFFF;
+	padding-top: .1rem;
+	box-sizing: border-box;
+	position: fixed;
+	left: 0;
+	top: .5rem;
+	z-index: 1;
+	
+}
+#orderPT_nav ul{
+	display: flex;
+	justify-content: space-around;
+}
+#orderPT_nav li{
+	font-weight:bold;
+	font-size: .14rem;
+	color: #1C1C1C;
+	line-height: .25rem;
+}
+/* 订单详情 */
+#orderPT_main{
+	width: 100%;
+	 margin-bottom: 0.1rem;
+	background: #FFFFFF;
+	border-radius:3px;
+	padding: 0 0.23rem .12rem 0.14rem;
+	box-sizing: border-box;
+}
+.orderPT_main_top{
+	display: flex;
+	justify-content: space-between;
+	height: 0.35rem;
+	align-items: center;
+}
+.orderPT_main_top p{
+	color: #303133;
+	font-size: .14rem;
+	line-height:.25rem;
+	flex: .9;
+}
+.orderPT_main_top span{
+	color: #FEAD51;
+	font-size: .14rem;
+	line-height:.25rem;
+}
+.orderPT_main_center{
+	display: flex;
+	margin-bottom: .12rem;
+}
+
+
+.orderPT_main_has_but>div{
+	display: flex;
+}
+.orderPT_main_has_but>div:nth-of-type(2){
+	justify-content:flex-end;
+}
+.orderPT_main_has_but>div:nth-of-type(2)>div {
+	width: 0.8rem;
+	height: 0.28rem;
+	text-align: center;
+	line-height: 0.28rem; 
+	font-size: 0.14rem;
+	font-family: Microsoft YaHei;
+	font-weight: 400; 
+	color: #303133;
+	border-radius: 0.14rem;
+	border: 1px solid #C0C4CC;
+}
+.orderPT_main_has_but>div:nth-of-type(2)>div:nth-of-type(1){
+	margin-right: 0.13rem;
+}
+
+.orderPT_main_has_but_1{
+	display: flex;
+	justify-content:flex-end;
+}
+.orderPT_main_has_but_1>div {
+	width: 0.8rem;
+	height: 0.28rem;
+	text-align: center;
+	line-height: 0.28rem; 
+	font-size: 0.14rem;
+	font-family: Microsoft YaHei;
+	font-weight: 400; 
+	color: #303133;
+	border-radius: 0.14rem;
+	border: 1px solid #C0C4CC;
+}
+.orderPT_main_has_but_1>div:nth-of-type(1){
+	margin-right: 0.13rem;
+}
+
+
+
+.orderPT_main_img{
+	width: 0.7rem;
+	height: 0.7rem;
+	margin-right: .08rem;
+}
+.orderPT_main_img img{
+	width: 100%;
+	height: 0.7rem;
+}
+.orderPT_main_xx{ 
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between; 
+
+}
+.amount{
+	/* float: right; */
+	font-weight: bold;
+	color: #1C1C1C;
+}
+.orderPT_main_xx p{
+	width: 2.36rem;  
+	font-family: Microsoft YaHei;
+	font-weight: bold; 
+	color: #303133;
+	font-size: .14rem; 
+	overflow: hidden;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+	-webkit-box-orient: vertical; 
+}
+.orderPT_main_xx>p:nth-of-type(2){
+	font-size: 0.14rem; 
+	font-weight: 400;
+	color: #C0C4CC;
+}
+.orderPT_main_xx>div:nth-of-type(1) {
+	display: flex;  
+	justify-content: space-between;
+}
+.orderPT_main_xx>div:nth-of-type(1)>p {
+	font-size: 0.14rem;
+	color: #EF0E01;
+	width :auto; 
+	
+}
+.orderPT_main_xx span{ 
+	color: #C0C4CC;
+}
+.orderPT_main_bottom button{
+   position: relative;
+   left: 2.45rem;
+   padding: 0 .1rem;
+   height:.24rem;
+   border-radius:.12rem;
+   border:1px solid #EC2B48;
+   color: #EC2B48;
+   background: #FFFFFF;
+   text-align: center;
+   line-height: .2rem;
+   font-size: .14rem;
+   margin-top: .1rem;
+   display: block;
+}
+#orderDZ_nav{
+	width: 3.75rem;
+	height: .44rem;
+	background: #FFFFFF;
+	padding-top: .1rem;
+	box-sizing: border-box;
+	position: fixed;
+	left: 0;
+	top: .5rem;
+	z-index: 1;
+	
+}
+#orderDZ_nav ul{
+	display: flex;
+	overflow-x: auto;
+}
+#orderDZ_nav li{
+	font-weight:bold;
+	font-size: .14rem;
+	color: #1C1C1C;
+	line-height: .25rem;
+	margin-right: .4rem;
+	flex: 1 0 19%;
+	text-align: center;
+}
+.noList img{
+    display: block;
+    width: 1.6rem;
+    height: 1.2rem;
+    margin: 2.5rem auto .1rem auto;
+}
+.noList p{
+    font-size: .16rem;
+    text-align: center;
+    margin-bottom: .1rem;
+}
+.noList span{
+    width:1.10rem;
+    height:.30rem;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    border:1px solid rgba(236,43,72,1);
+    color: #EC2B48;
+    font-size: .12rem;
+    line-height: .3rem;
+    border-radius:.15rem;
+}

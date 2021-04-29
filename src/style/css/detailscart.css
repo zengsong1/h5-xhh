@@ -1,0 +1,345 @@
+#header_detailscart{
+	width: 100%;
+	height: .5rem;
+	background: #FFFFFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 22;
+}
+/*<!--购物车轮播图*/
+#banner_detailscart{
+	width: 100%;
+	height: 3.93rem;
+	background: #FFFFFF;
+}
+#banner_detailscart img{
+	width: 3.29rem;
+	height: 3.29rem;
+    display: block;
+    margin: 0 auto;
+}
+#message_detailscart{
+	box-sizing: border-box;
+	width: 100%; 
+	background: #FFFFFF;
+	border-radius:3px;
+	margin-top: 0.1rem;
+}
+#message_detailscart .message_detailscart_inner{
+	padding: .1rem 0.28rem 0.17rem .15rem ;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#message_detailscart .message_detailscart_inner_top{
+	display: flex;
+	justify-content: space-between;
+}
+#message_detailscart .message_detailscart_inner_top h1 {
+	width: .8rem;
+	text-align: center;
+	font-size: .16rem;
+	font-weight:bold;
+	color: #1C1C1C;
+	border-left: 5px solid #EC2B48;
+	line-height: .22rem;
+}
+#message_detailscart .message_detailscart_inner_top h2{
+    width:.64rem;
+	height:.19rem;
+	background:rgba(255,255,255,1);
+	border:1px solid rgba(112,112,112,1);
+	border-radius:.1rem;
+	text-align: center;
+	font-size: .12rem;	
+	line-height: .19rem;
+}
+#message_detailscart .message_detailscart_inner_bottom{
+	
+	
+}
+#message_detailscart .message_detailscart_inner_bottom h4{ 
+	max-height: 0.45rem;
+	font-size: 0.16rem;
+	font-family: Microsoft YaHei; 
+	line-height: 0.24rem;
+	color: #303133;
+	opacity: 1;
+	overflow: hidden;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+	font-weight: bold  !important;
+}
+#message_detailscart .message_detailscart_inner_bottom h5{
+	font-size:.12rem;
+	line-height:.17rem;
+	color:rgba(125,125,125,1);
+}
+#message_detailscart .message_detailscart_inner_bottom h6{
+	height: 0.48rem;
+	font-size:.22rem;
+	line-height:.25rem;
+	color:#EC2B48;
+	line-height: 0.48rem;
+	
+}
+#message_detailscart .message_detailscart_inner_bottom i{
+	position:relative;
+	left: 2.1rem;
+	top:-.21rem;
+	color: #7D7D7D;
+	font-size: .12rem;
+}
+.message_detailscart_inner_bottom_xx{
+	display: flex;
+	justify-content: space-between;
+}
+/* 已选版本 */
+#message_pz{
+	width: 100%;
+	margin-top: 0.1rem;
+	padding: .11rem 0.19rem 0.13rem 0.15rem;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	border-radius:3px;
+	position: relative;
+}
+.message_pz_top>div:nth-of-type(1){
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ .message_pz_top>div:nth-of-type(n+2){
+	display: flex;
+	/* height: 0.43rem;   */
+	margin-bottom: 0.14rem;
+	align-items: center; 
+	font-size: 0.14rem; 
+	font-weight: 400; 
+	color: #303133;
+}
+/* #message_pz img{
+	position: absolute;
+	left: 3.2rem;
+	top:.55rem;
+	width: .08rem;
+} */
+#message_pz>.message_pz_top .look_num{
+	position: relative !important;
+	width: 0.3rem;
+
+}
+.message_pz_top>div:nth-last-of-type(1){
+	margin-bottom: 0;
+}
+.message_pz_top>div:nth-of-type(n+1)>span{
+	 display: inline-block;
+	 margin-right: 0.31rem;
+}
+.message_pz_top>div>h6{
+	height: 0.48rem;  
+	line-height: 0.48rem;
+	font-size: 0.16rem;
+	font-family: Microsoft YaHei;
+	font-weight: bold !important; 
+	color: #303133; 
+}
+ 
+
+ 
+/* 为你推荐 */
+#message_tj{
+	width: 3.46rem;
+	height: 2.08rem;
+	margin: .14rem auto;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	border-radius:3px;
+}
+#message_tj .message_tj_top{
+	display: flex;
+	justify-content: space-around;
+}
+#message_tj .message_tj_top p{
+	font-size: .16rem;
+	color: #1C1C1C;
+	line-height: .25rem;
+}
+#message_tj .message_tj_bottom{
+	margin-top: .15rem;
+	display: flex;
+	justify-content: space-around;
+}
+.message_tj_bottom_01{
+	width: .86rem;
+}
+.message_tj_bottom_01 p{
+	font-size: .12rem;
+	color: #1C1C1C;
+	margin-top: .05rem;
+	overflow: hidden;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-height: .15rem;
+}
+.message_tj_bottom_01 p:nth-child(3){
+	color:#EC2B48;
+	font-size: .14rem;
+}
+.message_tj_bottom_01 img{
+	display: block;
+	width: .65rem;
+	height: .65rem;
+	margin: 0 auto;
+}
+#message_xq{ 
+	width: 3.75rem;
+	margin-bottom: 0.8rem;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	border-radius:3px;
+}	
+.message_xq_top{
+	height: .4rem; 
+	margin-top: 0.1rem;
+}
+.message_xq_top h6{
+	width: 100%;
+	box-sizing: border-box;
+	height: 0.4rem;  
+	font-size: 0.14rem;
+    color: #303133;
+    line-height: .4rem;
+	padding-left: 0.2rem;
+}
+.message_xq_bottom img{
+	width: 100%;
+	height: auto;
+}
+/* 商品操作 */
+#message_cz{
+	position: fixed;
+	display: flex; 
+	width: 3.75rem;
+	height: .71rem;
+	background: #FFFFFF;
+	padding-top:.07rem;
+	box-sizing: border-box;
+	left: 0;
+	bottom: 0;
+	z-index: 10;
+}
+#message_cz .message_cz_sc_p {
+	margin-top: 0.04rem;
+}
+.message_cz_cartnumber{
+	padding: 0 0.1rem 0 0.2rem ;
+}
+.message_cz_sc{ 
+	text-align: center;
+	padding-right: 0.14rem;
+}
+#message_cz .message_cz_cartnumber img{
+	display: block;
+	width: .22rem;
+    height: .22rem;
+	margin: 0 auto;
+}
+.message_cz_sc img{
+	height: .22rem;
+}
+.message_cz_sc img{
+	display: block;
+	margin: 0 auto;
+}
+.message_cz_cartnumber span{
+	display: block;
+	position: absolute;
+	left: .45rem;
+    top: .03rem;
+	text-align: center;
+	line-height: .18rem;
+	width: .18rem;
+	height: .18rem;
+	border-radius:50%;
+	background:#EC2B48;
+	color: #FFFFFF;
+}
+.message_cz_jr ,.message_cz_dz,.message_cz_gm{
+	width: 2.52rem;
+	height: 0.38rem;
+	background: linear-gradient(267deg, #EF0E01 0%, #EC2B48 100%) !important;
+	border-radius:.22rem;
+	text-align: center;
+	line-height: .39rem;
+	color: #FFFFFF;
+	font-size: 0.14rem;
+font-family: Microsoft YaHei;
+font-weight: bold;
+}
+/* 拿样 */
+#message_ny{
+	width: 3.46rem;
+	margin: .14rem auto;
+	padding: .14rem .15rem;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	border-radius:3px;
+	position: relative;
+}
+#message_ny .message_ny_top{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+#message_ny .message_ny_top h1{
+	font-size: .16rem;
+	font-weight: bold;
+	color: #1C1C1C;
+	line-height: .2rem;
+}
+#message_ny .message_ny_top p{
+	font-size: .12rem;
+	color: #EC2B48;
+}
+#message_ny .message_ny_top i{
+	position: absolute;
+	left: 2.25rem;
+}
+#message_ny .message_ny_top img{
+	height: .13rem;
+}
+#message_ny > p{
+	font-size: .12rem;
+	color: #7D7D7D;
+}
+#message_ny .message_ny_bottom{
+	display: flex;
+	justify-content: space-between;
+	margin-top: .1rem;
+}
+#message_ny .message_ny_bottom > p{
+	font-size: .2rem;
+	font-weight: bold;
+	color: #EC2B48;	
+	line-height: .38rem;
+}
+#message_ny .message_ny_bottom > p span{
+	font-size: .14rem;
+	color: #7D7D7D;	
+	font-weight: normal;
+}
+#message_ny .message_ny_bottom button{
+	width:.99rem;
+	height:.38rem;
+	border-radius:.19rem;
+	background: #F6536B;
+	color: #FFFFFF;
+	font-size: .14rem;
+	border: none;
+}

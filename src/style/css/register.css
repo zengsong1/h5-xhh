@@ -1,0 +1,125 @@
+
+#register_header{
+	width:3.75rem;
+	height:.5rem;
+	line-height:.5rem;
+    text-align: center;
+	margin-bottom: .25rem;
+	box-sizing: border-box;
+}
+#register_header h1{
+	font-size:.18rem;
+	font-weight: bold;
+}
+#register{
+	position: relative;
+}
+#register .register_inner{
+	width: 2.72rem;
+	margin: 0 auto;
+	
+}
+
+#register .register_inner input{
+	font-size: .14rem;
+	margin-right: .2rem;
+	width: 2.72rem;
+	margin: 0 auto .5rem auto;
+	border-bottom: 1.5px solid #3b3b3b;
+	padding-bottom: .08rem;
+	padding-left: .03rem;
+}
+/* #register .register_inner span:nth-of-type(1){
+	position: absolute;
+	left: 2.5rem;
+	top:.8rem
+} */
+#register .register_inner span:nth-of-type(2){
+	position: absolute;
+	left: 2.9rem;
+	top:.8rem
+}
+#register .register_inner p{
+	display: inline-block;
+	color: #7D7D7D;
+	margin-right: .13rem;
+	position: relative;
+    top: -.35rem;
+}
+#register .register_inner h6{
+	display: inline-block;
+	width: .69rem;
+	height: .69rem;
+	border: 1px solid #707070;
+	text-align: center;
+	line-height: .69rem;
+	color: #707070;
+}
+#footer_register{
+	width: 2.72rem;
+	margin: .17rem auto 0 auto;
+}
+
+#footer_register .footer_register_inner input {
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-bottom: 1px;
+    /* 前面三行代码是为了让radio单选按钮与文字对齐 */
+    appearance: none;/*清楚默认样式*/
+    opacity: 0;
+    outline: none;
+    /* 注意不能设置为display:none*/
+}
+#footer_register .footer_register_inner label {
+    z-index: 1;
+    position: absolute;
+    left: .4rem;
+    /*注意层级关系，如果不把label层级设为最低，会遮挡住input而不能单选*/
+	  width: 0.16rem;
+	  height: 0.16rem;
+	  line-height: 0.16rem;
+	  text-align: center;
+	  background-color: #fff;
+	  border-radius: .1rem;
+	  border: 1px solid #EC2B48;
+}
+
+#footer_register .footer_register_inner input:checked+label {
+    background: #EC2B48;
+}
+
+#footer_register .footer_register_inner input:checked+label::after {
+    content: "";
+    position: absolute;
+    left: .05rem;
+    width: .04rem;
+    height: .1rem;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+}
+#footer_register .footer_register_inner span{
+ 	color: #7D7D7D;
+ 	margin-left: .1rem;
+ }
+#footer_register .footer_register_inner i{
+  	color: #EC2B48;
+  }
+#footer_register .footer_register_bottom{
+	width: 2.75rem;
+	height: .44rem;
+	background: #F6536B;
+	border-radius: .22rem;
+	text-align: center;
+	line-height: .44rem;
+	margin-top: .28rem;
+}
+#footer_register .footer_register_bottom span{
+	color: #FFFFFF;
+}
+/* 正则 */
+#register i{
+	position: absolute;
+	color: #EC2B48;
+	font-size: .10rem;
+}

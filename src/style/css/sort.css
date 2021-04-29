@@ -1,0 +1,95 @@
+
+#header_search1{
+	width: 3.75rem;
+	height: .55rem;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	background: #ffffff;	
+}
+#header_search1 .header_search_inner{
+	width: 3.48rem;
+	height: .35rem;
+	margin: .08rem auto 0 auto;	
+	background: #F1F1F1;
+	border-radius:.18rem;
+	display: flex;
+}
+#header_search1 .header_search_inner img{
+	width: .29rem;
+	margin-left: .11rem;
+	margin-top: .04rem;
+}
+#header_search1 .header_search_inner input{
+	display: block;
+	width: 2.5rem;
+	background: #F1F1F1;	
+	font-size: .14rem;
+}
+#side_nav{
+	box-sizing: border-box;
+	width:1.2rem;
+	overflow-y: auto;
+	background:#F1F1F1;
+	margin-top: .48rem;
+	padding-top: .06rem;
+}
+#side_nav ul{
+	text-align: center;
+}
+#side_nav li{
+	width: 1.15rem;
+	height: .43rem;
+	line-height: .43rem;
+	margin-bottom: .07rem;
+}
+/*商品分类*/
+#category{
+	width: 2.55rem;
+    background: #FFFFFF;
+	padding-left: .1rem;
+	margin-top: .55rem;
+	box-sizing: border-box;;
+	overflow-y: auto;
+}
+#category .category_inner{
+	width: 2.13rem;
+}
+#category .category_inner_0{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: .18rem;
+}
+#category .category_inner_1{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-right:.05rem;
+}
+#category h1{
+	color: #1C1C1C;
+	font-weight: bold;
+	font-size: .14rem;
+	margin-bottom: .1rem;
+}
+#category .category_inner_1 .category_inner_1_details{
+	width: .63rem;
+	height: .63rem;
+	border: 1px solid #a7a7a6;
+	display: flex;
+	align-items: center;
+	margin-top: .04rem;
+	margin-bottom: .02rem;
+}
+#category .category_inner_1 .category_inner_1_details img{
+	margin: 0 auto;
+	width: .52rem;
+	height: .52rem;
+}
+#category .category_inner_1 p{
+	color: #1C1C1C;
+	text-align: center;
+}
+
+

@@ -1,0 +1,58 @@
+ #pay_main{
+	 width: 2.71rem;
+	 margin: 1.33rem auto;
+ }
+ .pay_main_xx{
+	 width: 2.71rem;
+	 height: 2.42rem;
+	 background: url(../../img/home/zfcg02.png) no-repeat;
+	background-size: 2.71rem 2.42rem;
+	padding: 1.66rem .2rem 0 .2rem;
+	box-sizing: border-box;
+	font-size: .14rem;
+	color: #1C1C1C;
+	font-weight: bold;
+	position: relative;
+ }
+  .pay_main_xxno{
+ 	 width: 2.71rem;
+ 	 height: 2.42rem;
+ 	 background: url(../../img/home/zfsb01.png) no-repeat;
+ 	background-size: 2.71rem 2.42rem;
+ 	padding: 1.66rem .2rem 0 .2rem;
+ 	box-sizing: border-box;
+ 	font-size: .14rem;
+ 	color: #1C1C1C;
+ 	font-weight: bold;
+ }
+ .pay_main_xx_01{
+	 display: flex;
+	 justify-content: space-between;
+	 margin-bottom: .1rem;
+ }
+  .pay_main_xx_02{
+ 	 display: flex;
+ 	 justify-content: space-between;
+ }
+ .pay_main_botton01{
+	 width: 2.7rem;
+	 height: .44rem;
+	 color: #FFFFFF;
+	 background: #EC2B48;
+	 text-align: center;
+	 font-size: .14rem;
+	 line-height: .44rem;
+	 border-radius: .22rem;
+	 margin-top: .2rem;
+	 margin-bottom: .1rem;
+ }
+  .pay_main_botton02{
+ 	 width: 2.7rem;
+ 	 height: .44rem;
+ 	 color: #000000;
+ 	 background: #FFFFFF;
+ 	 text-align: center;
+ 	 font-size: .14rem;
+ 	 line-height: .44rem;
+ 	 border-radius: .22rem;
+ }

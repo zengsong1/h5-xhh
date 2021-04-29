@@ -1,0 +1,180 @@
+#address_xq_title {
+	width: 3.75rem;
+	height: .5rem;
+	background: #FFFFFF;
+	color: #1C1C1C;
+	font-size: .18rem;
+	text-align: center;
+	line-height: .5rem;
+	font-weight: bold;
+}
+#address_xq_main {
+    width:3.75rem;
+	height:.78rem;
+	background: #EC2B48;
+	display: flex;
+	padding-left: .14rem;
+	box-sizing: border-box;
+	z-index: -1;
+	position: relative;
+}
+#address_xq_main p{
+	position: relative;
+	left: -.5rem;
+	top:.5rem;
+	font-size: .1rem;
+	color: #FFFFFF;
+}
+#address_xq_main img{
+	height: .16rem;
+	margin-top: .31rem;
+	margin-right: .1rem;
+}
+#address_xq_main span {
+	color: #FFFFFF;
+	font-size: .16rem;
+	line-height:.78rem;
+}
+/*商品信息 */
+#order_dz{
+	width: 3.47rem;
+	height: 1.2rem;
+	/* margin: -.14rem auto .14rem auto; */
+	padding: .11rem;
+	background: url(../../img/home/sort/background_tp.png) no-repeat;
+    background-size:3.47rem 1.2rem ;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+.order_dz_bottom1{
+	margin-top: .2rem;
+	display: flex;
+}
+.order_dz_center1{
+	margin-left: .5rem;
+}
+.order_dz_center span:nth-child(1),.order_dz_center span:nth-child(2){
+	color: #3B3B3B;
+	font-weight:bold;
+	font-size: .14rem;
+}
+.order_dz_center span{
+	margin-right: .12rem;
+}
+.order_dz_center span:nth-child(5){
+	display: inline-block;
+	width:.31rem;
+	height:.15rem;
+	border-radius:3px;
+	text-align: center;
+	line-height: .15rem;
+	background: #EC2B48;
+	color: #FFFFFF;
+}
+/* 商品信息 */
+#order_xx{
+	width: 3.47rem;
+	margin: .14rem auto;
+	padding: .11rem;
+	background:#FFFFFF;
+	box-sizing: border-box;
+	border-radius: 3px;
+	position: relative;
+}
+.order_xx_bottom_left{
+	width: 1.07rem;
+	height: 1.07rem;
+}
+.order_xx_bottom_left img{
+	display: block;
+	height: .97rem;
+	width: .97rem;
+	margin: .05rem auto;
+}
+.order_xx_bottom_right{
+	position: relative;
+}
+.order_xx_bottom{
+	display: flex;
+	margin-top: .15rem;
+}
+.order_xx_bottom_right_01>p:nth-child(1){
+	width: 2.2rem;
+	color: #4D4D4D;
+	font-size: .16rem;
+	overflow: hidden;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+	-webkit-box-orient: vertical;
+	line-height: .2rem;
+}
+.order_xx_bottom_right_01>p:nth-child(2){
+	color: #7D7D7D;
+	font-size: .12rem;
+}
+.order_xx_bottom_right_01>p:nth-child(3){
+	color: #EC2B48;
+	font-size: .14rem;
+	font-weight:800;
+	position: absolute;
+	left: .1rem;
+	top:.8rem;
+
+}
+
+.order_xx_hj{
+	display: flex;
+	justify-content: space-between;
+	margin-top: .2rem;
+	padding: .1rem .12rem 0 .12rem; 
+}
+.order_xx_hj p:nth-child(1){
+	color: #1C1C1C;
+	font-size: .16rem;
+	font-weight: bold;
+}
+.order_xx_hj p:nth-child(2){
+	color: #F62644;
+	font-size: .16rem;
+	font-weight: bold;
+}
+.order_xx_hj p span{
+	color: #1C1C1C;
+	font-size: .12rem;
+}
+/* 发票信息 */
+#order_fp1{
+	width: 3.47rem;
+	margin: .14rem auto;
+	padding: .11rem;
+	background:#FFFFFF;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin-bottom: 1.3rem;
+}
+.order_fp_bottom{
+	
+	margin-left: .15rem;
+}
+.order_fp_bottom span{
+	font-size: .14rem;
+	color: #1C1C1C;
+	font-weight:bold;
+	line-height: .29rem;
+	margin-right: .1rem;
+}
+.order_fp_bottom_01,.order_fp_bottom_02{
+	border-bottom: 1px solid #D5D5D5;
+}
+.order_zfdd,.order_qxdd{
+	width: 3.47rem;
+	height: .44rem;
+	background:#EC2B48;
+	border-radius:.22rem;
+	text-align: center;
+	line-height:.44rem;
+	margin: .1rem auto .1rem auto;
+	color: #FFFFFF;
+}

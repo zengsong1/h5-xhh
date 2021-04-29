@@ -1,0 +1,96 @@
+#collect_title{
+	width: 3.75rem;
+	height: .5rem;
+	background: #FFFFFF;
+	color: #1C1C1C;
+	font-size: .18rem;
+	line-height: .5rem;
+	display: flex;
+	justify-content: space-around;
+}
+#collect_title h1{
+	flex: 1.5;
+	text-align: center;
+	text-indent: 3em;
+	font-weight: bold;
+}
+#collect_title p{
+	font-size: .16rem;
+	color: #3B3B3B;
+	margin-right: .1rem;
+}
+/* 收藏列表 */
+#collect_main {
+	width: 3.47rem;
+	margin: .14rem auto;
+	border-radius:3px;
+	background: #FFFFFF;
+	padding: .08rem;
+	display: flex;
+	box-sizing: border-box;
+}
+.collect_main_left{
+	width: 1.06rem;
+	height: 1.06rem;
+	margin-right: .1rem;
+}
+.collect_main_left img{
+	display: block;
+	height: .9rem;
+	margin: .1rem auto;
+}
+.collect_main_right{
+	width: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+}
+.collect_main_right p{
+	color: #4D4D4D;
+	width: 2rem;
+	line-height:.22rem;
+	overflow: hidden;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+	-webkit-box-orient: vertical;
+	line-height: .2rem;
+}
+.collect_main_right span{
+	color: #EC2B48;
+	font-weight:bold;
+	line-height:.22rem;
+	margin-top: .1rem;
+}
+.collect_main_right button{
+	position: absolute;
+	left: 1.2rem;
+    top: .8rem;
+	border-radius:.12rem;
+	border:1px solid #EC2B48;
+	color: #EC2B48;
+	background: #FFFFFF;
+	font-size: .14rem;
+	padding:.02rem .1rem;
+}
+.main_cart_title{
+	position: relative;
+    background: #E5E5E5;
+    height: .3rem;
+	line-height: .3rem;
+	text-indent: .05rem;
+	border-radius: 4px;
+}
+.main_cart_title span{
+	color: #1C1C1C;
+	font-weight:bold;
+	font-size: .14rem;
+}
+.main_cart_title img{
+	display: inline-block;
+	transform: rotate(90deg);
+	position: absolute;
+	left: .65rem;
+	top:.08rem
+}

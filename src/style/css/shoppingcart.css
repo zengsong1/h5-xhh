@@ -1,0 +1,323 @@
+#header_cart{
+	width: 3.75rem;
+	height: .44rem;
+	background: #FFFFFF;
+}
+#header_cart .header_cart_inner{
+	display: flex;
+	justify-content: center;
+
+}
+#header_cart .header_cart_inner p{
+	line-height: .44rem;
+	font-weight:bold;
+	font-size: .18rem;
+	color: #3B3B3B;	
+}
+#header_cart span{
+	position: absolute;
+	left: 3.23rem;
+	top:.11rem;
+	color: #3B3B3B;
+	font-size: .16rem;
+}
+/*购物车内容*/
+#main_cart{
+	width: 3.46rem;
+	margin: .14rem auto 1.66rem auto;
+}
+.main_cart_title{
+	position: relative;
+    background: #E5E5E5;
+    height: .3rem;
+	line-height: .3rem;
+	text-indent: .05rem;
+	border-radius: 4px;
+}
+.main_cart_title span{
+	color: #1C1C1C;
+	font-weight:bold;
+	font-size: .14rem;
+}
+.main_cart_title img{
+	display: inline-block;
+	transform: rotate(90deg);
+	position: absolute;
+	left: .65rem;
+	top:.08rem
+}
+#main_cart .main_cart_inner{
+	width: 3.46rem;
+	height: 1.1rem;
+	background: #FFFFFF;
+	display: flex;
+	margin-top: .12rem;
+	border-radius: 4px;
+	
+}
+#main_cart .main_cart_inner_left{
+	display: flex;
+	margin-left: .1rem;
+}
+#main_cart .main_cart_inner_left input {
+    position: relative;
+    left: .17rem;
+    top:.45rem;
+    /* 前面三行代码是为了让radio单选按钮与文字对齐 */
+    appearance: none;/*清楚默认样式*/
+    opacity: 0;
+    outline: none;
+    /* 注意不能设置为display:none*/
+}
+#main_cart .main_cart_inner_left label {
+	display: block;
+    position: relative;
+    top:.42rem;
+    /*注意层级关系，如果不把label层级设为最低，会遮挡住input而不能单选*/
+	  width: 0.16rem;
+	  height: 0.16rem;
+	  line-height: 0.16rem;
+	  text-align: center;
+	  background-color: #E6E6E6;
+	  border-radius: .1rem;
+	  border: 1px solid #828282;
+}
+
+#main_cart .main_cart_inner_left input:checked+label {
+    background: #EC2B48;
+}
+
+#main_cart .main_cart_inner_left input:checked+label::after {
+    content: "";
+    position: absolute;
+    left: .05rem;
+    width: .04rem;
+    height: .1rem;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+}
+#main_cart .main_cart_inner_left img{
+	height: .81rem;
+	margin: .15rem 0 0 .14rem;
+}
+#main_cart .main_cart_inner_right_top{
+	margin: .12rem 0 0 .2rem;
+    height: .6rem;
+}
+#main_cart .main_cart_inner_right_top h5{
+	line-height:20px;
+	color:#1C1C1C;
+	overflow: hidden;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+	-webkit-box-orient: vertical;
+	line-height: .2rem;
+}
+#main_cart .main_cart_inner_right_top h6{
+	font-size: .1rem;
+	color:#7D7D7D;
+}
+#main_cart .main_cart_inner_right{
+	display: flex;
+	flex-direction: column;
+	width: 2.29rem;
+	padding-right: .1rem;
+	
+}
+#main_cart .main_cart_inner_right_bottom{
+	margin-left: .2rem;
+}
+#main_cart .main_cart_inner_right_bottom_right{
+	display: flex;
+}
+#main_cart .main_cart_inner_right_bottom{
+	display: flex;
+	justify-content: space-between;
+	margin-top: .1rem;
+}
+#main_cart .main_cart_inner_right_bottom_left span{
+	color: #EC2B48;
+	font-weight:800;
+}
+/*---------*/
+#main_cart .main_cart_inner_right_bottom_right_1{
+	box-sizing: border-box;
+	width:.23rem;
+	height:.20rem;
+	background:#D2D2D2;
+	border:1px solid #D2D2D2;
+	border-radius:.02rem 0px 0px .02rem;
+	text-align: center;
+	padding-bottom: .1rem;
+	margin-right: .05rem
+}
+#main_cart .main_cart_inner_right_bottom_right_1 p{
+	color: #FFFFFF;
+	line-height:.17rem ;
+}
+#main_cart .main_cart_inner_right_bottom_right_2{
+	box-sizing: border-box;
+	width:.34rem;
+	height:.20rem;
+	background:#FFFFFF;
+	border-radius:.02rem 0px 0px .02rem;
+	text-align: center;
+}
+#main_cart .main_cart_inner_right_bottom_right_2 p{
+	color: #3B3B3B;
+	font-size: .12rem;
+	line-height:.20rem ;
+}
+#main_cart .main_cart_inner_right_bottom_right_3{
+	box-sizing: border-box;
+	width:.23rem;
+	height:.20rem;
+	background:#959494;
+	border:1px solid #959494;
+	border-radius:.02rem 0px 0px .02rem;
+	text-align: center;
+	margin-left: .18rem;
+}
+#main_cart .main_cart_inner_right_bottom_right_3 p{
+	color: #FFFFFF;
+	line-height:.17rem ;
+	
+}
+/*购物车结算*/
+#checkout{
+	width: 3.75rem;
+	height: .7rem;
+	background: #FFFFFF;
+	position: fixed;
+	left: 0;
+	bottom:.825rem;	
+	border-bottom: 1px solid #f1f1f1;
+}
+#checkout .checkout_inner{
+	display: flex;
+}
+#checkout .checkout_inner_1 input {
+    position: relative;
+    left: .2rem;
+    /* 前面三行代码是为了让radio单选按钮与文字对齐 */
+    appearance: none;/*清楚默认样式*/
+    opacity: 0;
+    outline: none;
+    /* 注意不能设置为display:none*/
+}
+#checkout .checkout_inner_1 label {
+	display: inline-block;
+    position: relative;
+    top:.033rem;
+    z-index: 2;
+    /*注意层级关系，如果不把label层级设为最低，会遮挡住input而不能单选*/
+	  width: 0.16rem;
+	  height: 0.16rem;
+	  line-height: 0.16rem;
+	  text-align: center;
+	  background-color: #E6E6E6;
+	  border-radius: .1rem;
+	  border: 1px solid #828282;
+}
+
+#checkout .checkout_inner_1 input:checked+label {
+    background: #EC2B48;
+}
+
+#checkout .checkout_inner_1 input:checked+label::after {
+    content: "";
+    position: absolute;
+    left: .05rem;
+    width: .04rem;
+    height: .1rem;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+}
+#checkout .checkout_inner_1{
+	margin-left: .2rem;
+}
+#checkout .checkout_inner_1 span{
+	color: #1C1C1C;
+	font-size: .16rem;
+	margin-top: .24rem;
+	line-height: .7rem;
+	margin-left: .1rem;
+}
+#checkout .checkout_inner_2 {
+	display: flex;
+	flex-direction: column;
+	margin-left: .16rem;
+}
+#checkout .checkout_inner_2 h6{
+	color: #1C1C1C;
+}
+#checkout .checkout_inner_2_inner{
+	display: flex;
+	margin-top: .15rem;
+}
+#checkout .checkout_inner_2_inner h5{
+	font-size: .16rem;
+	color: #1C1C1C;
+}
+#checkout .checkout_inner_2_inner span{
+	margin-left: .07rem;
+	font-size: .16rem;
+	color: #EC2B48;
+	font-weight: bold;
+}
+#checkout .checkout_inner_3{
+	width: 1.06rem;
+	height: .44rem;
+	border-radius:.22rem;
+	background: #F6536B;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: .44rem;
+	position: absolute;
+    left: 2.6rem;
+    top: .14rem;
+}
+#checkout .checkout_inner_4{
+	width: 1.06rem;
+	height: .44rem;
+	border: 1px solid #1C1C1C;
+	border-radius:.22rem;
+	background: #FFFFFF;
+	color: #1C1C1C;
+	text-align: center;
+	line-height: .42rem;
+	margin: .13rem 0 0 1.7rem;
+	box-sizing: border-box;
+}
+#noList img{
+	display: block;
+	width: 1.3rem;
+	margin: 2rem auto 0rem auto;
+}
+#noList p{
+	margin: .3rem auto 0rem auto;
+	color: #EC2B48;
+	font-size: .12rem;
+	width:1.10rem;
+	height:.30rem;
+	border: 1px solid #EC2B48;
+	text-align: center;
+	line-height: .3rem;
+	border-radius: .15rem;
+}
+#nav_cart{
+	width: 3.75rem;
+	height: .4rem;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: space-around;
+}
+#nav_cart p{
+	line-height: .4rem;
+	font-size: .14rem;
+	color: #1C1C1C;
+	font-weight: bold;
+}

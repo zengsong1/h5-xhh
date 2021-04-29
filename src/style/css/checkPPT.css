@@ -1,0 +1,14 @@
+#ckPPT_title h1{
+	width: 3.75rem;
+	height: .44rem;
+	background: #FFFFFF;
+	color: #1C1C1C;
+	font-size: .18rem;
+	text-align: center;
+	line-height: .44rem;
+	font-weight: bold;
+}
+#ckPPT_main{
+	width: 3.46rem;
+	margin: .14rem auto;
+}

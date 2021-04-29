@@ -1,0 +1,55 @@
+#logistics_title {
+	width: 3.75rem;
+	height: .5rem;
+	background: #FFFFFF;
+	color: #1C1C1C;
+	font-size: .18rem;
+	text-align: center;
+	line-height: .5rem;
+	font-weight: bold;	
+}
+#logistics_main{
+	width: 3.47rem;
+	margin: .14rem auto;
+	border-radius: 3px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	padding: .11rem .11rem .25rem .11rem;
+	
+}
+.logistics_main_inner{
+	display: flex;
+	margin-top: .14rem;
+}
+.logistics_main_left{
+	margin-right: .1rem;
+}
+.logistics_main_left_inner{
+	width: .13rem;
+	height: .13rem;
+	border-radius: 50%;
+	background: #7D7D7D;
+	font-weight: bold;
+}
+.logistics_main_right p{
+	font-size: .14rem;
+	color: #7D7D7D;
+}
+.logistics_main_right span{
+	font-size: .12rem;
+	color: #7D7D7D;
+	font-weight: bold;
+}
+/* 物流高亮 */
+.wlactive{
+	color: #F62644!important;
+}
+.wlactive1{
+	color: #1C1C1C!important;
+}
+.wlactive2{
+	width: .16rem;
+	height: .16rem;
+	background: #F62644;
+}
+

@@ -1,0 +1,84 @@
+
+#login_header{
+	width:3.75rem;
+	height:.5rem;
+	line-height:.5rem;
+    text-align: center;
+}
+#login_header h1{
+	font-size:.18rem;
+	font-weight: bold;
+}
+#logo{
+	width:3.75rem;
+	height: 1.7rem;
+	/* background: url(../../img/home/login/logo@2x.png) .83rem .45rem no-repeat;
+	background-size: 2.09rem .54rem; */
+	box-sizing: border-box;
+}
+#logo img{
+	/* display: block; */
+	width: 2.09rem;
+	height: .54rem;
+	margin: .4rem .85rem;
+	/* vertical-align: middle; */
+}
+/*手机登陆*/
+.login_phone{
+	width: 2.72rem;
+	margin: 0 auto;
+	border-bottom: 1px solid #3b3b3b;
+	padding-bottom: .08rem;
+	padding-left: .03rem;
+	margin-bottom: .53rem;
+}
+.logins_password{
+	width: 2.72rem;
+	margin: 0 auto .85rem auto;
+	border-bottom: 1px solid #3b3b3b;
+	padding-bottom: .08rem;
+	padding-left: .03rem;
+	display: flex;
+	justify-content: space-between
+}
+.login_phone input{
+	font-size: .14rem;
+	margin-right: .2rem;
+	width: 2rem;
+}
+.logins_password input{
+	font-size: .14rem;
+	margin-right: .2rem;
+	width: 1.5rem;
+}
+.logins_password img{
+	height: .13rem;
+	margin-right: .1rem;
+	margin-top: .02rem
+}
+.logins_password span{
+	display: block;
+	width:.68rem;
+	height:.17rem;
+	line-height:.17rem;
+	border-left: .017rem solid #7d7d7d;
+	text-align: center;
+}
+#logins{
+	display: flex;
+	 justify-content: center;
+}
+#logins .logins_top{
+	width:3.45rem;
+	height: 0.38rem;
+	border-radius: .22rem;
+	background: linear-gradient(267deg, #EF0E01 0%, #EC2B48 100%);
+	text-align: center;
+    line-height:.38rem ;
+    color: #FFFFFF;
+}
+#logins .logins_bottom{
+	display: flex;
+	justify-content: space-between;
+	margin-top: .17rem;
+}
